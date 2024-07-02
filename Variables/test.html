@@ -6,10 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="./variablesInJS.js"> </script>
     <h2> What can javascript do? </h2>
     <p id = "demo" >  Javascript can change the HTML content. </p>
     <button type="button" onclick= 'document.getElementById("demo").innerHTML = "Hello Javascript!" '>Click Me!</button>
-    <script src="./variablesInJS.js"> </script>
-   
+
+    <p>In this cas e JavaScript can change the value the value of the src (source ) attribute of an image </p>
+
+    <button onClick = "document.getElementById ('myImage').src='Images/pic_bulbon.gif'" > Turn on the Light</button>
+
+    <img id = "myImage" src ="Images/pic_bulboff.gif" style = "width: 100px">
+
+    <button onClick = "document.getElementById ('myImage').src='Images/pic_bulboff.gif'" > Turn off the Light </button>
+    
 </body>
 </html>
