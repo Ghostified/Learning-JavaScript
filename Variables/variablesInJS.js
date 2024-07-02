@@ -103,5 +103,30 @@ var remainder ;
 remainder = 90 % 8;
 console.log(remainder);
 
+a1 = 3;
+a2  = 17;
+a3 = 12;
+
+a1 = a + 12;
+a2 =  9 + a2;
+a3 = a3 + 7;
+
+a1 += 12 + "a";
+a2 += 9;
+a3 += 7;
+
+a1 -= 12;
+a2  -= 9;
+a3 -= 7 ;
+
+console.log (a1, a2, a3);
+
+var myStr2 = "Iam a \" double quoted\" string inside \"double quote" ;
+console.log(myStr2);
+
+var myStr3 = "FirstLine\n\t\SecondLine\nThirdLine";
+console.log(myStr3);
+
+
 
 
