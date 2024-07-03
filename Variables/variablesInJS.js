@@ -127,6 +127,10 @@ console.log(myStr2);
 var myStr3 = "FirstLine\n\t\SecondLine\nThirdLine";
 console.log(myStr3);
 
+function myFunction () {
+    document.getElementById("demo").innerHTML = "Paragraph Changed ";
+}
+
 
 
 
